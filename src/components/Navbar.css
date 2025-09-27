@@ -1,0 +1,96 @@
+/* Navbar Base */
+.navbar {
+  background-color: #000 !important; /* full black */
+  padding: 12px 20px;
+  border-bottom: 1px solid #222;
+}
+
+/* Brand */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color:rgb(81, 20, 128) !important;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Nav links */
+.navbar-nav .nav-link {
+  color: black !important;
+  font-weight: 500;
+  margin-right: 16px;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+  color: black !important; /* neon teal */
+}
+
+/* Active link (Home) */
+.navbar-nav .nav-link.active {
+  color: black !important;
+  font-weight: 600;
+}
+
+/* Disabled */
+.navbar-nav .nav-link.disabled {
+  color: black !important;
+  cursor: not-allowed;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  background-color: #111 !important;
+  border: 1px solid #222;
+  border-radius: 6px;
+}
+
+.dropdown-item {
+  color: #fff !important;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #00ffcc !important;
+  color: #000 !important;
+}
+
+.dropdown-divider {
+  border-top: 1px solid #333;
+}
+
+/* Search input */
+.form-control {
+  border-radius: 20px;
+  border: 1px solid #333;
+  background-color: #000;
+  color: #fff;
+}
+
+.form-control::placeholder {
+  color: #888;
+}
+
+/* Search button */
+.btn-outline-success {
+  border-radius: 20px;
+  border: 1px solid #00ffcc;
+  color: #00ffcc;
+  font-weight: bold;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-success:hover {
+  background-color: #00ffcc;
+  color: #000;
+}
+
+/* Mobile toggle button */
+.navbar-toggler {
+  border: 1px solid #00ffcc;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1); /* makes icon visible on black */
+}
